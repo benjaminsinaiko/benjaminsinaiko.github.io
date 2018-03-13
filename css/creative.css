@@ -343,3 +343,20 @@ header.masthead p {
   opacity: 0.9;
   border-radius: 50%;
 }
+
+.social {
+  padding: 20px;
+  font-size: 20px;
+  background: white;
+}
+
+#contact {
+  padding-top: 60px;
+  padding-bottom: 50px;
+  color: #f05f40;
+}
+
+#contact a,
+p {
+  color: black;
+}
