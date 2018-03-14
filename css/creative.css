@@ -363,3 +363,7 @@ header.masthead p {
 p {
   color: black;
 }
+#copyright {
+  color: white;
+  font-size: 10px;
+}
