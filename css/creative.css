@@ -17,6 +17,10 @@ hr {
 hr.light {
   border-color: #fff;
 }
+hr.long {
+  max-width: 90%;
+  border-top: 1px solid #8c8b8b;
+}
 
 a {
   color: #f05f40;
@@ -44,6 +48,7 @@ h6 {
 
 .bg-dark {
   background-color: #212529 !important;
+  padding: 3em 0;
 }
 
 .text-faded {
@@ -355,13 +360,17 @@ header.masthead p {
   text-decoration: none;
 }
 
-#affiliations {
-  padding: 3em;
+.affiliated {
+  padding: 2em 0 0 0;
+}
+
+.affiliated img {
+  transform: scale(0.75);
 }
 
 #contact {
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding-top: 3em;
+  padding-bottom: 4em;
   color: #f05f40;
 }
 
@@ -372,4 +381,8 @@ p {
 #copyright {
   color: white;
   font-size: 10px;
+}
+
+#bottom {
+  color: gray;
 }
