@@ -138,7 +138,7 @@
         <hr class="star-dark mb-5">
         <div class="row no-gutters ">
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" data-toggle="modal" data-target="#exampleModal">
+            <a class="portfolio-box" data-toggle="modal" data-target="#GoSeeModal">
               <img class="img-fluid" src="img/portfolio/thumbnails/gosee-home.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
@@ -153,7 +153,7 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/thumbnails/actualizecrm-home.jpg">
+            <a class="portfolio-box" data-toggle="modal" data-target="#CRMModal">
               <img class="img-fluid" src="img/portfolio/thumbnails/actualizecrm-home.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
@@ -168,7 +168,7 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="">
+            <a class="portfolio-box" data-toggle="modal" data-target="#TweetGullsModal">
               <img class="img-fluid" src="img/portfolio/thumbnails/tweetgulls-soon.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
@@ -184,75 +184,87 @@
               </div>
             </a>
           </div>
-<!--           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    JS Course Project
-                  </div>
-                  <div class="project-name">
-                    Budgety
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Side Project
-                  </div>
-                  <div class="project-name">
-                    Ven.u Landing Page
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div> -->
+
         </div>
       </div>
 
-      <!-- Modal -->
-      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
+      <!-- GoSee Modal -->
+      <div class="modal fade" id="GoSeeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <h5 class="modal-title" id="exampleModalLabel">GoSee - Capstone Project</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
-              This is the body
+              GoSee is your concert companion app.  It helps you find concerts to attend, keep track of upcoming shows, and look back at what you've seen – All in one place.
+            </div>
+            <div class="modal-body">
+              Backend: <strong>Rails, Postgres</strong><br>
+              Frontend: <strong>HTML, Bootstrap CSS, VueJS</strong></br>
+              APIs: <strong>Google Maps, SeatGeek, Spotify, Last.fm, Setlist.fm</strong></br>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
             </div>
           </div>
         </div>
       </div>
     </section>
+
+      <!-- Actualize CRM Modal -->
+      <div class="modal fade" id="CRMModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Actualize CRM - Group Project</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              The current CRM that Actualize uses to manage its prospective applicants. Helped in updating the UI, including an internal restructuring that transformed the app into a Single Page Application, making it much easier to use. The CRM also allows a user to call and text a lead through the Twilio API.
+            </div>
+            <div class="modal-body">
+              Backend: <strong>Rails, Postgres</strong><br>
+              Frontend: <strong>HTML, Bootstrap CSS, VueJS</strong></br>
+              APIs: <strong>Twilio</strong></br>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <!-- TweetGulls Modal -->
+      <div class="modal fade" id="TweetGullsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">TweetGulls - Side Project</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              Keeps you up to date with all the goings on of Brighton and Hove Albion FC.
+            </div>
+            <div class="modal-body">
+              Backend: <strong>Rails, Postgres</strong><br>
+              Frontend: <strong>HTML, Bootstrap CSS, VueJS</strong></br>
+              APIs: <strong>Twitter</strong></br>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>    
 
 
     <section class="affiliated">
@@ -272,13 +284,6 @@
         </div>
       </div>
     </section>
-
-    <section>
-      <div>
-        
-      </div>
-    </section>
-
 
     <hr class="long">
 
