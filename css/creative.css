@@ -371,6 +371,19 @@ header.masthead p {
   transform: scale(0.45);
 }
 
+#experience {
+  color: white;
+  background-color: #212529;
+  text-align: center;
+}
+#experience div {
+  /*  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  float: none;
+  display: ;*/
+}
+
 #contact {
   padding-top: 3em;
   padding-bottom: 6em;
