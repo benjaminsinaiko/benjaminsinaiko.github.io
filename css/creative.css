@@ -345,8 +345,8 @@ header.masthead p {
 .profile {
   border: 10px solid transparent;
   margin-bottom: 25px;
-  width: 80%;
-  height: 80%;
+  width: 90%;
+  height: 90%;
   opacity: 0.9;
   border-radius: 50%;
 }
@@ -375,13 +375,6 @@ header.masthead p {
   color: white;
   background-color: #212529;
   text-align: center;
-}
-#experience div {
-  /*  width: 100%;
-  text-align: center;
-  margin: 0 auto;
-  float: none;
-  display: ;*/
 }
 
 #contact {
