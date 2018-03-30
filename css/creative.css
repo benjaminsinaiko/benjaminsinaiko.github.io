@@ -381,6 +381,7 @@ header.masthead p {
   box-shadow: 10px 10px 5px grey;
   height: 200px;
 }
+
 .experience-card:hover {
   box-shadow: 0px 0px 150px #000000;
   z-index: 2;
@@ -393,10 +394,18 @@ header.masthead p {
   transition: all 200ms ease-in;
   transform: scale(1.1);
 }
+
+.card-text {
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+.card-body a {
+  text-decoration: none;
+}
 .card-role {
   font-style: italic;
-}
-.card-role:hover {
+  font-size: 0.9em;
   color: #f05f40;
 }
 
