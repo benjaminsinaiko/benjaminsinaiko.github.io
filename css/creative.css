@@ -358,6 +358,7 @@ header.masthead p {
 }
 .social a:hover {
   text-decoration: none;
+  color: white;
 }
 
 .affiliated {
@@ -440,7 +441,7 @@ p {
 }
 #copyright {
   color: white;
-  font-size: 10px;
+  font-size: 8px;
 }
 
 #bottom {
