@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  font-family: "Merriweather", "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 
 hr {
@@ -39,7 +39,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .bg-primary {
@@ -88,7 +88,7 @@ img::-moz-selection {
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #fff;
-  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -98,7 +98,7 @@ img::-moz-selection {
   font-weight: 700;
   text-transform: uppercase;
   color: #f05f40;
-  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 #mainNav .navbar-brand:focus,
@@ -179,7 +179,7 @@ header.masthead {
   padding-bottom: calc(10rem - 56px);
   /*background-image: url("../img/header4.jpg");*/
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../img/header-new2.jpg");
+    url('../img/header-new2.jpg');
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -267,7 +267,7 @@ header.masthead p {
   .portfolio-box-caption-content
   .project-name {
   padding: 0 15px;
-  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .portfolio-box
@@ -318,7 +318,7 @@ header.masthead p {
   text-transform: uppercase;
   border: none;
   border-radius: 300px;
-  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .btn-xl {
@@ -398,8 +398,9 @@ header.masthead p {
 }
 
 .experience-card {
-  box-shadow: 10px 10px 5px grey;
   height: 200px;
+  height: calc(100% - 15px);
+  margin-bottom: 15px;
 }
 
 .experience-card:hover {
@@ -415,14 +416,15 @@ header.masthead p {
   transform: scale(1.1);
 }
 
+.card-body a {
+  text-decoration: none;
+}
+
 .card-text {
   font-weight: bold;
   padding-top: 15px;
 }
 
-.card-body a {
-  text-decoration: none;
-}
 .card-role {
   font-style: italic;
   font-size: 0.9em;
