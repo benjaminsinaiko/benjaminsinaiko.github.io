@@ -342,6 +342,9 @@ header.masthead p {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
 }
 
+#about p {
+  font-size: 1.1em;
+}
 .profile {
   border: 10px solid transparent;
   margin-bottom: 25px;
@@ -361,17 +364,17 @@ header.masthead p {
   color: white;
 }
 
-.affiliated {
+#affiliated {
   padding: 2em 0 0 0;
 }
 
-.affiliated div {
+#affiliated div {
 }
 
-.affiliated img {
+#affiliated img {
   transform: scale(0.45);
 }
-.affiliated img:hover {
+#affiliated img:hover {
   /* property values: name, duration, iteration, timing-function */
   animation: jiggle 0.5s infinite linear;
 }
