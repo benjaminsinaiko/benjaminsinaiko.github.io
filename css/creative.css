@@ -309,6 +309,14 @@ header.masthead p {
   }
 }
 
+.capstone-orange {
+  color: #f05f40;
+}
+#capstone p {
+  color: white;
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
 .text-primary {
   color: #f05f40 !important;
 }
